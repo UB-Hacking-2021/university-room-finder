@@ -29,7 +29,7 @@ try{
 
 let pendingRequests = 0;
 
-for(let num = 101; num<500; num++){
+for(let num = 500; num<800; num++){
 	console.log(`Requesting ${dpt} ${num}`);
 	pendingRequests++;
 	options.url = `https://imc-apis.webapps.buffalo.edu/schedule/courses/spring?abbr=${dpt}&num=${num}`;
