@@ -3,7 +3,6 @@
 import datetime
 from .models import Course, Room
 
-
 NOT_AVAILABLE_TIME = datetime.time(0, 0, 0)
 
 
@@ -46,7 +45,7 @@ def get_results(building_name: str, current_time: datetime.time, day: str):
 
     for course in courses_after_now:
 
-        print(course)
+        # print(course)
 
         course_start_time = django_time_to_datetime_time(course.start_time)
         course_end_time = django_time_to_datetime_time(course.end_time)
@@ -73,6 +72,14 @@ def get_results(building_name: str, current_time: datetime.time, day: str):
            if latest_time != NOT_AVAILABLE_TIME]  # Build list of dicts
     ret.sort(key=lambda x: x["time"])  # Sort by time
     ret.reverse()  # Return classes with longer availability first
+
+    # Prioritize rooms in the building the user specified
+
+    # for temp in ret:  # for testing
+    #     print(temp["room"].building_name.lower())
+
+    ret.sort(key=lambda x: x["room"].building_name.lower() != building_name.lower())
+
     return ret
     # Returns list of dicts like:
     # [
