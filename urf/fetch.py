@@ -20,6 +20,14 @@ def get_results(building_name, current_time, day):
 
     # 2. Get courses where their start time is after the current time
     courses_after_now = Course.objects.filter(start_time__gt=current_time)
+    if building_name:
+        courses_after_now = courses_after_now.filter(room__building_name=building_name)
+
+    if day == "sunday":
+        courses_after_now.filter(is_sunday=True)
+    elif day == "monday":
+        courses_after_now.filter(is_monday=True)
+    # TODO more of this tedious part
 
     for course in courses_after_now:
         start_time = course.start_time
@@ -28,5 +36,5 @@ def get_results(building_name, current_time, day):
         if start_time < this_room_latest_availability:
             room_map[room] = this_room_latest_availability
 
-    # TODO sort the map
+    # TODO sort the map somehow
     return room_map
