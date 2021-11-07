@@ -10,6 +10,10 @@
 
 <h1>Debug page</h1>
 
+{% if data.fake_added %}
+<h2>Created fake data!</h2>
+{% endif %}
+
 <h2>All Rooms:</h2>
 {% for room in data.rooms %}
     {{ room }}

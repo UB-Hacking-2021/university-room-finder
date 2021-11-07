@@ -12,6 +12,7 @@
 
 <a href="{% url 'index' %}">Home</a>
 <a href="{% url 'debug' %}">Debug</a>
+<a href="{% url 'fake' %}">Make fake data</a>
 <a href="{% url 'regenerate' %}">Regenerate data</a>
 
 <br>
@@ -23,9 +24,10 @@
     <input type="submit" value="Submit">
 </form>
 
-{% if data.results %}
-{{ data.results }}
-{% endif %}
+{% for element, value in data.results.items %}
+{{ element }} is free until {{ value }}
+    <br>
+{% endfor %}
 
 
 </body>
