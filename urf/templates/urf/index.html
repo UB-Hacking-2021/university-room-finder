@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>TODO TITLE PAGE</title>
+    {%  load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 </head>
 <body>
 
 <h1>It works!</h1>
+
+<p><a href="{% url 'regenerate' %}">Regenerate Database</a></p>
 
 </body>
 </html>

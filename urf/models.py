@@ -9,4 +9,19 @@ class Room(models.Model):
 
 
 class Course(models.Model):
-    pass
+    # Link to a Room
+    room = models.ForeignKey(Room, on_delete=models.SET_NULL, null=True)
+    abbr = models.CharField(max_length=8)
+    number = models.CharField(max_length=8)
+    reg_number = models.CharField(max_length=16)
+    start_time = models.TimeField
+    end_time = models.TimeField
+    session_start = models.DateField
+    session_end = models.DateField
+    is_sunday = models.BooleanField
+    is_monday = models.BooleanField
+    is_tuesday = models.BooleanField
+    is_wednesday = models.BooleanField
+    is_thursday = models.BooleanField
+    is_friday = models.BooleanField
+    is_saturday = models.BooleanField
