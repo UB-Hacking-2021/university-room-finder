@@ -2,21 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TODO TITLE PAGE</title>
+    <title>UB Findin' a Room</title>
     {%  load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 </head>
 <body>
 
-<h1>UB Lookin' for a Space</h1>
-<p>Form here</p>
+<h1>UB Findin' a Room</h1>
 
-{#{% if data %}#}
-{{ data }}
-{#{% endif %}#}
+<a href="{% url 'index' %}">Home</a>
+<a href="{% url 'debug' %}">Debug</a>
+<a href="{% url 'regenerate' %}">Regenerate data</a>
 
+<br>
+<br>
 
-<p><a href="{% url 'regenerate' %}">Regenerate Database</a></p>
+<form action="/" method="post">
+    {% csrf_token %}
+    {{ data.form }}
+    <input type="submit" value="Submit">
+</form>
+
+{% if data.results %}
+{{ data.results }}
+{% endif %}
+
 
 </body>
 </html>
