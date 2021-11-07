@@ -48,8 +48,8 @@ function outputData(){
 	//	let removeEntry=false;
 //		if(
 		for(let j=0;j<ignoreRoomTerms.length;j++){
-			if(allCourseJsonBase[i].room.includes(ignoreRoomTerms[j])){
-				allCourseJsonBase.splice(i,1);
+			if(allCourseJsonBase[i].room.toLowerCase().includes(ignoreRoomTerms[j].toLowerCase())){
+				allCourseJsonBase.splice(i--,1);
 			}
 		}
 	}
