@@ -2,7 +2,7 @@ from django import forms
 
 
 class MainForm(forms.Form):
-    building_name = forms.CharField(label='Building name', max_length=100)
+    building_name = forms.CharField(label='Building name', max_length=100, required=False)
     day_options = (
         ("sunday", "Sunday"),
         ("monday", "Monday"),

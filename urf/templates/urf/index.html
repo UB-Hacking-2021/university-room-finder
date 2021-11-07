@@ -24,8 +24,8 @@
     <input type="submit" value="Submit">
 </form>
 
-{% for element, value in data.results.items %}
-{{ element }} is free until {{ value }}
+{% for result in data.results %}
+{{ result.room }} is free until {{ result.time }}
     <br>
 {% endfor %}
 

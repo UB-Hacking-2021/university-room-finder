@@ -1,8 +1,12 @@
 # This file handles everything for fetching the results from a user's request
 
 import datetime
-
 from .models import Course, Room
+
+
+# Convert an Django Time object into a Python Datetime.time object for easier comparisons
+def django_time_to_datetime_time(djtime):
+    return datetime.time(djtime.hour, djtime.minute, djtime.second)
 
 
 # find all results appropriate for the user's query filtered to building (if specified)
@@ -19,31 +23,32 @@ def get_results(building_name: str, current_time: datetime.time, day: str):
 
     # 2. Get courses where their start time is after the current time
     # This doesn't quite work here, but the next section does
-    courses_after_now = Course.objects.filter()  #start_time__gte=current_time)
+    courses_after_now = Course.objects.all()  # start_time__gte=current_time)
+    # I later discovered this was due to having different types of times. Solved with django_time_to_datetime_time
 
-
-    if building_name:
-        courses_after_now = courses_after_now.filter(room__building_name=building_name)
-
-    # if day == "sunday":
-    #     courses_after_now.filter(is_sunday=True)
-    # elif day == "monday":
-    #     courses_after_now.filter(is_monday=True)
-    # elif day == "tuesday":
-    #     courses_after_now.filter(is_tuesday=True)
-    # elif day == "wednesday":
-    #     courses_after_now.filter(is_wednesday=True)
-    # elif day == "thursday":
-    #     courses_after_now.filter(is_thursday=True)
-    # elif day == "friday":
-    #     courses_after_now.filter(is_firday=True)
-    # elif day == "saturday":
-    #     courses_after_now.filter(is_saturday=True)
+    if day == "sunday":
+        courses_after_now = courses_after_now.filter(is_sunday=True)
+    elif day == "monday":
+        courses_after_now = courses_after_now.filter(is_monday=True)
+    elif day == "tuesday":
+        courses_after_now = courses_after_now.filter(is_tuesday=True)
+    elif day == "wednesday":
+        courses_after_now = courses_after_now.filter(is_wednesday=True)
+    elif day == "thursday":
+        courses_after_now = courses_after_now.filter(is_thursday=True)
+    elif day == "friday":
+        courses_after_now = courses_after_now.filter(is_firday=True)
+    elif day == "saturday":
+        courses_after_now = courses_after_now.filter(is_saturday=True)
 
     for course in courses_after_now:
 
+        print(course)
+
+        course_start_time = django_time_to_datetime_time(course.start_time)
+
         # Filter to courses where their start time is after the current time
-        if course.start_time < current_time:
+        if course_start_time < current_time:
             continue
 
         start_time = course.start_time
@@ -54,4 +59,12 @@ def get_results(building_name: str, current_time: datetime.time, day: str):
             print("CHANGED!")
 
     # TODO sort the map somehow
-    return room_map
+    ret = [{"room": room, "time": latest_time} for room, latest_time in room_map.items()] # Build list of dicts
+    ret.sort(key=lambda x: x["time"])  # Sort by time
+    ret.reverse()  # Return classes with longer availability first
+    return ret
+    # Returns list of dicts like:
+    # [
+    #     {"room": room1, "time": latest_time1},
+    #     {"room": room2, "time": latest_time2}, ...
+    # ]

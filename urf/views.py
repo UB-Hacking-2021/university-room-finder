@@ -12,10 +12,10 @@ def index(request):
         form = MainForm(request.POST)
         if form.is_valid():
             # process form
-            building = str(form.cleaned_data["building_name"]),
+            building = form.cleaned_data["building_name"],
             day = str(form.cleaned_data["day"]),
             time = form.cleaned_data["time"],
-            results_to_show = get_results(building, time, day)
+            results_to_show = get_results(building[0], time[0], day[0])
     else:
         form = MainForm()
 
