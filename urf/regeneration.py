@@ -27,13 +27,13 @@ def build_database():
                 end_time=datetime.time(hour=int(int(row['end_time'])/100), minute=int(int(row['end_time'])/60)),
                 session_start=datetime.date(year=2021, month=9, day=1),
                 session_end=datetime.date(year=2021, month=12, day=10),
-                is_sunday=row['is_sunday'],
-                is_monday=row['is_monday'],
-                is_tuesday=row['is_tuesday'],
-                is_wednesday=row['is_wednesday'],
-                is_thursday=row['is_thursday'],
-                is_friday=row['is_friday'],
-                is_saturday=row['is_saturday'],
+                is_sunday=row['is_sunday']=="True",
+                is_monday=row['is_monday']=="True",
+                is_tuesday=row['is_tuesday']=="True",
+                is_wednesday=row['is_wednesday']=="True",
+                is_thursday=row['is_thursday']=="True",
+                is_friday=row['is_friday']=="True",
+                is_saturday=row['is_saturday']=="True",
                 room=my_room
             )
         
