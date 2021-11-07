@@ -1,6 +1,5 @@
 # This file handles everything for generating the initial database data from the website
 import datetime
-import time
 
 from .models import Course, Room
 
@@ -18,17 +17,17 @@ def build_database():
         abbr="cse",
         number="116",
         reg_number="12345",
-        # start_time=datetime.time(hour=10, minute=30),
-        # end_time=datetime.time(hour=11, minute=30),
-        # session_start=datetime.date(year=2021, month=9, day=1),
-        # session_end=datetime.date(year=2021, month=12, day=10),
-        # is_sunday=False,
-        # is_monday=True,
-        # is_tuesday=False,
-        # is_wednesday=False,
-        # is_thursday=False,
-        # is_friday=False,
-        # is_saturday=False,
+        start_time=datetime.time(hour=10, minute=30),
+        end_time=datetime.time(hour=11, minute=30),
+        session_start=datetime.date(year=2021, month=9, day=1),
+        session_end=datetime.date(year=2021, month=12, day=10),
+        is_sunday=False,
+        is_monday=True,
+        is_tuesday=False,
+        is_wednesday=False,
+        is_thursday=False,
+        is_friday=False,
+        is_saturday=False,
         room=my_room
     )
 
