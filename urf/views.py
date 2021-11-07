@@ -1,10 +1,24 @@
 from django.shortcuts import render
 from urf import regeneration
 from .models import Course, Room
+from .forms import MainForm
 
 
 def index(request):
-    return render(request, "urf/index.html")
+    results_to_show = []  # Results to show the user
+    if request.method == "POST":
+        form = MainForm(request.POST)
+        if form.is_valid():
+            # process form
+            results_to_show = [form.cleaned_data["building_name"],
+                               form.cleaned_data["day"],
+                               form.cleaned_data["time"],
+                               ]
+    else:
+        form = MainForm()
+
+    data = {"test": "test string", "form": form, "results": results_to_show}
+    return render(request, "urf/index.html", {"data": data})
 
 
 def results(request):
