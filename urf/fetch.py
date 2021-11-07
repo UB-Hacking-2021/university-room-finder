@@ -4,6 +4,9 @@ import datetime
 from .models import Course, Room
 
 
+NOT_AVAILABLE_TIME = datetime.time(0, 0, 0)
+
+
 # Convert an Django Time object into a Python Datetime.time object for easier comparisons
 def django_time_to_datetime_time(djtime):
     return datetime.time(djtime.hour, djtime.minute, djtime.second)
@@ -46,20 +49,28 @@ def get_results(building_name: str, current_time: datetime.time, day: str):
         print(course)
 
         course_start_time = django_time_to_datetime_time(course.start_time)
+        course_end_time = django_time_to_datetime_time(course.end_time)
 
         # Filter to courses where their start time is after the current time
         if course_start_time < current_time:
-            continue
+            # If this course already started
+            if course_end_time < current_time:
+                # If this course already ended, it doesn't affect our results, so ignore it
+                continue
+            else:
+                # This course is in session, so exclude this room.
+                room_map[course.room] = NOT_AVAILABLE_TIME  # This is a bad match at this time.
 
         start_time = course.start_time
         room = course.room
         this_room_latest_availability = room_map[room]
         if start_time < this_room_latest_availability:
             room_map[room] = start_time
-            print("CHANGED!")
 
     # TODO sort the map somehow
-    ret = [{"room": room, "time": latest_time} for room, latest_time in room_map.items()] # Build list of dicts
+    ret = [{"room": room, "time": latest_time}
+           for room, latest_time in room_map.items()
+           if latest_time != NOT_AVAILABLE_TIME]  # Build list of dicts
     ret.sort(key=lambda x: x["time"])  # Sort by time
     ret.reverse()  # Return classes with longer availability first
     return ret
