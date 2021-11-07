@@ -1,6 +1,8 @@
 const fs = require('fs');
 rootPath = "./departments/";
 
+let ignoreRoomTerms = ["Arr","Remote","Unknown", "Off Ca", "To Be Det", "Future", "Coe", "Mai", "Squire", "Ec_Med", "Studen","Dorshe", "Clark"];
+
 let allCourseJsonBase = [];
 let activeThreads = 1;
 fs.readdir(rootPath, (err, files) => {
@@ -42,6 +44,15 @@ function cleanUpJson(filePath){
 
 function outputData(){
 	if(activeThreads){return setTimeout(outputData,500);}
+	for(let i=0;i<allCourseJsonBase.length;i++){
+	//	let removeEntry=false;
+//		if(
+		for(let j=0;j<ignoreRoomTerms.length;j++){
+			if(allCourseJsonBase[i].room.includes(ignoreRoomTerms[j])){
+				allCourseJsonBase.splice(i,1);
+			}
+		}
+	}
 	fs.writeFileSync("allCourses.json",JSON.stringify(allCourseJsonBase));
 	process.exit(0);
 }
