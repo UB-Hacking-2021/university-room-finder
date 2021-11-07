@@ -44,7 +44,7 @@ $ChromeDriver.Quit()
 $departmentURLcsv = @("dpt,url")
 $dptMap.Keys | foreach {
     $departmentURLcsv += ("" + $_ + "," + $dptMap[$_])
-    Start-Process -FilePath .\perDepartmentScraper.ps1 -versionSite $dptMap[$_]
+    Start-Process powershell.exe -ArgumentList @("$PSScriptRoot\perDepartmentScraper.ps1", "-versionSite", $dptMap[$_])
 }
 
 Set-Content -Value $departmentURLcsv -Path .\departmentURLs.csv
