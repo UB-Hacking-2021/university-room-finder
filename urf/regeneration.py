@@ -9,7 +9,7 @@ from .models import Course, Room
 def build_database():
     # TODO
     
-    with open('../departmentData/classes.csv',lewline='') as csvfile:
+    with open('./departmentData/classes.csv') as csvfile:
 #        csvReader = csv.reader(csvfile, delimeter=',', quotechar='"')
         reader = csv.DictReader(csvfile)
         for row in reader:
@@ -23,8 +23,8 @@ def build_database():
                 abbr=row['abbr'],
                 number=row['number'],
                 reg_number=row['reg_number'],
-                start_time=datetime.time(hour=row['start_time']/100, minute=row['start_time']/60),
-                end_time=datetime.time(hour=row['end_time']/100, minute=row['end_time']/60),
+                start_time=datetime.time(hour=int(int(row['start_time'])/100), minute=int(int(row['start_time'])/60)),
+                end_time=datetime.time(hour=int(int(row['end_time'])/100), minute=int(int(row['end_time'])/60)),
                 session_start=datetime.date(year=2021, month=9, day=1),
                 session_end=datetime.date(year=2021, month=12, day=10),
                 is_sunday=row['is_sunday'],
