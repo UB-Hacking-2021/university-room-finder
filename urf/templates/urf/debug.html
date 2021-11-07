@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Debug Page</title>
+    {%  load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<h1>Debug page</h1>
+
+<h2>All Rooms:</h2>
+{% for room in data.rooms %}
+    {{ room }}
+{% endfor %}
+
+<h2>All Courses:</h2>
+{% for course in data.courses %}
+    {{ course }}
+{% endfor %}
+
+</body>
+</html>

@@ -8,7 +8,13 @@
 </head>
 <body>
 
-<h1>It works!</h1>
+<h1>UB Lookin' for a Space</h1>
+<p>Form here</p>
+
+{#{% if data %}#}
+{{ data }}
+{#{% endif %}#}
+
 
 <p><a href="{% url 'regenerate' %}">Regenerate Database</a></p>
 
