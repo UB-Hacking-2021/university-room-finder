@@ -1,0 +1,2062 @@
+[
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  T R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 101LR",
+        "  Room":  "  Nsc 215",
+        "  Time":  "   9:30 AM - 10:50 AM"
+    },
+    {
+        "  Section":  "  A1",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 101LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   5:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  A2",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 101LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   7:00 PM - 7:50 PM"
+    },
+    {
+        "  Section":  "  A3",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 101LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   6:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  A4",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 101LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   5:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  T R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Nsc 201",
+        "  Time":  "   2:00 PM - 3:20 PM"
+    },
+    {
+        "  Section":  "  A1",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   4:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  A2",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   9:00 AM - 9:50 AM"
+    },
+    {
+        "  Section":  "  A3",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   4:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  A4",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   11:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  A5",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   9:00 AM - 9:50 AM"
+    },
+    {
+        "  Section":  "  A6",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  A7",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   9:00 AM - 9:50 AM"
+    },
+    {
+        "  Section":  "  A8",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   5:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  B",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Nsc 201",
+        "  Time":  "   1:00 PM - 1:50 PM"
+    },
+    {
+        "  Section":  "  B1",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   11:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  B2",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  B3",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  B4",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  B5",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   4:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  B6",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  B7",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   4:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  B8",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  M1",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   8:00 PM - 8:50 PM"
+    },
+    {
+        "  Section":  "  M2",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  M3",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   3:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  M4",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   3:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  MFC",
+        "  Days":  "  M W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 102LR",
+        "  Room":  "  Nsc 215",
+        "  Time":  "   6:30 PM - 7:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Nsc 201",
+        "  Time":  "   2:00 PM - 2:50 PM"
+    },
+    {
+        "  Section":  "  A1",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   11:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  A2",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   4:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  A3",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   5:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  A4",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   9:00 AM - 9:50 AM"
+    },
+    {
+        "  Section":  "  A5",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   4:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  A6",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   9:00 AM - 9:50 AM"
+    },
+    {
+        "  Section":  "  B",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Nsc 225",
+        "  Time":  "   11:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  B1",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   5:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  B2",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  B3",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   9:00 AM - 9:50 AM"
+    },
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  B4",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  B5",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   9:00 AM - 9:50 AM"
+    },
+    {
+        "  Section":  "  B6",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   3:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  B7",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   4:00 PM - 4:40 PM"
+    },
+    {
+        "  Section":  "  C",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Nsc 201",
+        "  Time":  "   6:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  C1",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   9:00 AM - 9:50 AM"
+    },
+    {
+        "  Section":  "  C2",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   5:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  C3",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   1:00 PM - 1:50 PM"
+    },
+    {
+        "  Section":  "  C4",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   4:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  C5",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   11:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  C6",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   6:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  C7",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   4:00 PM - 4:40 PM"
+    },
+    {
+        "  Section":  "  M1",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   7:00 PM - 7:50 PM"
+    },
+    {
+        "  Section":  "  M2",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   6:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  M3",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   5:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  M4",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   6:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  M5",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   5:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  M6",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   7:00 PM - 7:50 PM"
+    },
+    {
+        "  Section":  "  MFC",
+        "  Days":  "  T R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 1",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 107LR",
+        "  Room":  "  Nsc 201",
+        "  Time":  "   6:30 PM - 7:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 2",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 108LR",
+        "  Room":  "  Nsc 201",
+        "  Time":  "   3:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  A1",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 2",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 108LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   11:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  A2",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 2",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 108LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   11:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  A3",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 2",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 108LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   11:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  A4",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 2",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 108LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   8:00 AM - 8:50 AM"
+    },
+    {
+        "  Section":  "  A5",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 2",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 108LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   10:00 AM - 10:50 AM"
+    },
+    {
+        "  Section":  "  A6",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 2",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 108LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   4:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  A7",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 2",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 108LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   6:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  Gen Phys Hon 2",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 118LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   12:00 PM - 12:50 PM"
+    },
+    {
+        "  Section":  "  A1",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  Gen Phys Hon 2",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 118LR",
+        "  Room":  "  Frnczk 341",
+        "  Time":  "   1:00 PM - 1:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  Astronomy And Cosmic Origins",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 121LEC",
+        "  Room":  "  Nsc 222",
+        "  Time":  "   3:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  1",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  Astronomy \u0026 Cosmic Origins Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 123LAB",
+        "  Room":  "  Frnczk 360",
+        "  Time":  "   10:00 AM - 12:50 PM"
+    },
+    {
+        "  Section":  "  2",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  Astronomy \u0026 Cosmic Origins Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 123LAB",
+        "  Room":  "  Frnczk 360",
+        "  Time":  "   1:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  3",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  Astronomy \u0026 Cosmic Origins Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 123LAB",
+        "  Room":  "  Frnczk 360",
+        "  Time":  "   10:00 AM - 12:50 PM"
+    },
+    {
+        "  Section":  "  4",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  Astronomy \u0026 Cosmic Origins Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 123LAB",
+        "  Room":  "  Frnczk 360",
+        "  Time":  "   10:00 AM - 12:50 PM"
+    },
+    {
+        "  Section":  "  1",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   9:00 AM - 10:50 AM"
+    },
+    {
+        "  Section":  "  10",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   6:00 PM - 7:50 PM"
+    },
+    {
+        "  Section":  "  12",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   9:00 AM - 10:50 AM"
+    },
+    {
+        "  Section":  "  13",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   11:00 AM - 12:50 PM"
+    },
+    {
+        "  Section":  "  14",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   1:00 PM - 2:50 PM"
+    },
+    {
+        "  Section":  "  15",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   3:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  16",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   5:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  17",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   6:00 PM - 7:50 PM"
+    },
+    {
+        "  Section":  "  18",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   8:00 PM - 9:50 PM"
+    },
+    {
+        "  Section":  "  19",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   10:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  2",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   11:00 AM - 12:50 PM"
+    },
+    {
+        "  Section":  "  20",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   12:00 PM - 1:50 PM"
+    },
+    {
+        "  Section":  "  21",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   2:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  22",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   4:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  3",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   1:00 PM - 2:50 PM"
+    },
+    {
+        "  Section":  "  4",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   3:00 PM - 4:50 PM"
+    },
+    {
+        "  Section":  "  5",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   8:00 PM - 9:50 PM"
+    },
+    {
+        "  Section":  "  6",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   9:00 AM - 10:50 AM"
+    },
+    {
+        "  Section":  "  7",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   11:00 AM - 12:50 PM"
+    },
+    {
+        "  Section":  "  8",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   1:00 PM - 2:50 PM"
+    },
+    {
+        "  Section":  "  9",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  College Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 152LAB",
+        "  Room":  "  Frnczk 324",
+        "  Time":  "   4:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  1",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   9:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  10",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   3:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  11",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   6:00 PM - 8:50 PM"
+    },
+    {
+        "  Section":  "  12",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   10:00 AM - 12:50 PM"
+    },
+    {
+        "  Section":  "  2",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   12:00 PM - 2:50 PM"
+    },
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  3",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   3:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  4",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   9:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  5",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   12:00 PM - 2:50 PM"
+    },
+    {
+        "  Section":  "  6",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   3:00 PM - 5:50 PM"
+    },
+    {
+        "  Section":  "  8",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   9:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  9",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics Lab 2",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 158LAB",
+        "  Room":  "  Frnczk 300",
+        "  Time":  "   12:00 PM - 2:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  T R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 207LR",
+        "  Room":  "  Knox 110",
+        "  Time":  "   2:00 PM - 3:20 PM"
+    },
+    {
+        "  Section":  "  A1",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 207LR",
+        "  Room":  "  Park 250",
+        "  Time":  "   3:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  A2",
+        "  Days":  "  T",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 207LR",
+        "  Room":  "  Cooke 248",
+        "  Time":  "   8:30 AM - 9:20 AM"
+    },
+    {
+        "  Section":  "  A3",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 207LR",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   11:00 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  A4",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 207LR",
+        "  Room":  "  Park 440",
+        "  Time":  "   3:30 PM - 4:20 PM"
+    },
+    {
+        "  Section":  "  A5",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 207LR",
+        "  Room":  "  Park 250",
+        "  Time":  "   2:00 PM - 2:50 PM"
+    },
+    {
+        "  Section":  "  A6",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3",
+        "  Type":  "  REC",
+        "  Course":  "  PHY 207LR",
+        "  Room":  "  Talbrt 103",
+        "  Time":  "   10:00 AM - 10:50 AM"
+    },
+    {
+        "  Section":  "  1",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3 Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 257LAB",
+        "  Room":  "  Frnczk 308",
+        "  Time":  "   10:00 AM - 12:50 PM"
+    },
+    {
+        "  Section":  "  2",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3 Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 257LAB",
+        "  Room":  "  Frnczk 308",
+        "  Time":  "   1:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  3",
+        "  Days":  "  R",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3 Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 257LAB",
+        "  Room":  "  Frnczk 308",
+        "  Time":  "   4:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  4",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3 Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 257LAB",
+        "  Room":  "  Frnczk 308",
+        "  Time":  "   10:00 AM - 12:50 PM"
+    },
+    {
+        "  Section":  "  5",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3 Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 257LAB",
+        "  Room":  "  Frnczk 308",
+        "  Time":  "   1:00 PM - 3:50 PM"
+    },
+    {
+        "  Section":  "  6",
+        "  Days":  "  F",
+        "  Location":  "  North Campus",
+        "  Title":  "  General Physics 3 Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 257LAB",
+        "  Room":  "  Frnczk 308",
+        "  Time":  "   4:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  Intermediate Mechanics 2",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 302LEC",
+        "  Room":  "  Norton 214",
+        "  Time":  "   2:00 PM - 2:50 PM"
+    },
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  M",
+        "  Location":  "  North Campus",
+        "  Title":  "  Modern Physics Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 307LAB",
+        "  Room":  "  Frnczk 336",
+        "  Time":  "   4:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  B",
+        "  Days":  "  W",
+        "  Location":  "  North Campus",
+        "  Title":  "  Modern Physics Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 307LAB",
+        "  Room":  "  Frnczk 336",
+        "  Time":  "   4:00 PM - 6:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  Quantum Mechanics Ii",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 402LEC",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   10:00 AM - 10:50 AM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  M W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  Electricity \u0026 Magnetism 2",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 404LEC",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   12:00 PM - 12:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  T R",
+        "  Location":  "  North Campus",
+        "  Title":  "  Thermal \u0026 Stat Physics 2",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 406LEC",
+        "  Room":  "  Baldy 117",
+        "  Time":  "   12:30 PM - 1:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  T R",
+        "  Location":  "  North Campus",
+        "  Title":  "  Advanced Physics Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 408LAB",
+        "  Room":  "  Frnczk 246",
+        "  Time":  "   9:30 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  B",
+        "  Days":  "  W F",
+        "  Location":  "  North Campus",
+        "  Title":  "  Advanced Physics Lab",
+        "  Type":  "  LAB",
+        "  Course":  "  PHY 408LAB",
+        "  Room":  "  Frnczk 246",
+        "  Time":  "   9:30 AM - 11:50 AM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  ",
+        "  Location":  "  ",
+        "  Title":  "  Computational Physics 2",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 411LEC",
+        "  Room":  "  See class detail",
+        "  Time":  "   Multiple meeting patterns."
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  T R",
+        "  Location":  "  North Campus",
+        "  Title":  "  Nuclear \u0026 Particle Physics",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 412LEC",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   12:30 PM - 1:50 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  T R",
+        "  Location":  "  North Campus",
+        "  Title":  "  Electronics",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 413LEC",
+        "  Room":  "  Frnczk 219",
+        "  Time":  "   2:00 PM - 3:20 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  T R",
+        "  Location":  "  North Campus",
+        "  Title":  "  Solid State Physics",
+        "  Type":  "  LEC",
+        "  Course":  "  PHY 434LEC",
+        "  Room":  "  Baldy 126",
+        "  Time":  "   2:00 PM - 3:20 PM"
+    },
+    {
+        "  Section":  "  A",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  CER",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 128",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  GAN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 223",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  HAN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 247",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  HU",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 259",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  IAS",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 339A",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  KHA",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 339",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  KIN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 257",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  KRO",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  LUO",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 126",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  MAR",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 130",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  PET",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 327",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  PRL",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 229",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  RAP",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 323",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  SEN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 325",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  STO",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 255",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  WAC",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 261",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  WIL",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 132",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZEN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 225",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZHA",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 307",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZHE",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 227",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZUT",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Honors In Physics",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 497TUT",
+        "  Room":  "  Frnczk 307A",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  BAN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  CER",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  GAN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  HAN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  HU",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  IAS",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  KHA",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  KIN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  KRO",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  LUO",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  MAR",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  PET",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  PRL",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  RAP",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  SEN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  STO",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  WAC",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  WIL",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZEN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZHA",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZHE",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZUT",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Undergraduate Research",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 498TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  BAN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  CER",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  GAN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  HAN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  HU",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  Section",
+        "  Days":  "  Days",
+        "  Location":  "  Location",
+        "  Title":  "  Title",
+        "  Type":  "  Type",
+        "  Course":  "  Course",
+        "  Room":  "  Room",
+        "  Time":  "  Time"
+    },
+    {
+        "  Section":  "  IAS",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  KHA",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  KIN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  KRO",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  LUO",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  MAR",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  PET",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  PRL",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  RAP",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  SEN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  STO",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  WAC",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  WIL",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZEN",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZHA",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZHE",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    },
+    {
+        "  Section":  "  ZUT",
+        "  Days":  "  TBA",
+        "  Location":  "  North Campus",
+        "  Title":  "  Independent Study",
+        "  Type":  "  TUT",
+        "  Course":  "  PHY 499TUT",
+        "  Room":  "  ARR",
+        "  Time":  "   TBA"
+    }
+]
