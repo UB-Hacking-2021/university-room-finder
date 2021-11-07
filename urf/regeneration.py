@@ -14,10 +14,11 @@ def build_database():
         reader = csv.DictReader(csvfile)
         for row in reader:
 
-            my_room = Room.objects.create(
+            # get_or_create prevents making a duplicate room
+            my_room = Room.objects.get_or_create(
                 building_name=row['building_name'],
                 room_number=row['room_number'],
-            )
+            )[0]  # This is a tuple for some reason
         
             my_course = Course.objects.create(
                 abbr=row['abbr'],
@@ -36,8 +37,6 @@ def build_database():
                 is_saturday=row['is_saturday']=="True",
                 room=my_room
             )
-        
-            my_course.is_saturday = True
         
             my_room.save()
             my_course.save()
