@@ -70,13 +70,16 @@ def get_results(building_name: str, current_time: datetime.time, day: str):
     ret = [{"room": room, "time": latest_time}
            for room, latest_time in room_map.items()
            if latest_time != NOT_AVAILABLE_TIME]  # Build list of dicts
+
+    # Sort by room alphabetically
+
+    ret.sort(key=lambda x: x["room"].building_name + x["room"].room_number, reverse=True)
+
     ret.sort(key=lambda x: x["time"])  # Sort by time
     ret.reverse()  # Return classes with longer availability first
 
-    # Prioritize rooms in the building the user specified
 
-    # for temp in ret:  # for testing
-    #     print(temp["room"].building_name.lower())
+    # Prioritize rooms in the building the user specified
 
     ret.sort(key=lambda x: x["room"].building_name.lower() != building_name.lower())
 
