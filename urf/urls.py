@@ -7,4 +7,5 @@ urlpatterns = [
     path('results', views.results, name="results"),
     path('debug', views.debug, name="debug"),
     path('fake', views.make_fake_data, name="fake"),
+    path('room/<int:id>', views.room, name="room"),
 ]

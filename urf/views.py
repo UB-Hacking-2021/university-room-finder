@@ -40,10 +40,19 @@ def regenerate(request):
 # Wipe the database and regenerate all course schedules and rooms
 def debug(request):
     data = {
-        "rooms": Room.objects.all(),
-        "courses": Course.objects.all(),
+        "rooms": Room.objects.order_by("building_name", "room_number"),
+        "courses": Course.objects.order_by("abbr", "number", "start_time"),
     }
     return render(request, "urf/debug.html", {"data": data})
+
+
+# Get information about a particular room by its id
+def room(request, id):
+    data = {
+        "room": Room.objects.get(id=id),
+        "courses": Course.objects.filter(room_id=id).order_by("start_time"),
+    }
+    return render(request, "urf/room.html", {"data": data})
 
 
 def make_fake_data(request):

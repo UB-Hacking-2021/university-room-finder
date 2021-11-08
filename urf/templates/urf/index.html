@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>UB Findin' a Room</title>
-    {%  load static %}
+    {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 </head>
 <body>
@@ -25,7 +25,7 @@
 </form>
 
 {% for result in data.results %}
-{{ result.room }} is free until {{ result.time }}
+    <a href="{% url 'room' result.room.id %}">{{ result.room }}</a> is free until {{ result.time }}
     <br>
 {% endfor %}
 

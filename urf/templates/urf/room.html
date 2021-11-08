@@ -2,35 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Debug Page</title>
-    {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    <title>Room Info</title>
 </head>
 <body>
-
-<h1>Debug page</h1>
-
-{% if data.fake_added %}
-    <h2>Created fake data!</h2>
-{% endif %}
-
-<h2>All Rooms:</h2>
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Building Name</th>
-        <th>Room number</th>
-    </tr>
-
-    {% for room in data.rooms %}
-        <tr>
-            <td>{{ room.id }}</td>
-            <td>{{ room.building_name }}</td>
-            <td>{{ room.room_number }}</td>
-        </tr>
-    {% endfor %}
-
-</table>
+<h1>Room Info for {{ data.room }}</h1>
 
 <table>
     <tr>
@@ -51,8 +26,6 @@
         <th>Fri</th>
         <th>Sat</th>
     </tr>
-
-    <h2>All Courses:</h2>
     {% for course in data.courses %}
         <tr>
             <td>{{ course.id }}</td>
@@ -74,6 +47,6 @@
         </tr>
     {% endfor %}
 </table>
-
+<p>Return to the <a href="{% url 'index' %}">homepage</a>.</p>
 </body>
 </html>
